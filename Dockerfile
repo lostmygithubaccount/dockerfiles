@@ -8,8 +8,7 @@ WORKDIR $HOME
 RUN apt-get update && apt-get install -y \
     tree \
     vim-gui-common \
-    docker.io \
-    sudo
+    docker.io
 
 # copy context
 COPY ./ ./
