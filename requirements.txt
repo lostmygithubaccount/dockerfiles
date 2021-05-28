@@ -1,0 +1,22 @@
+# basics
+mlflow
+numpy
+pandas
+scikit-learn
+
+# trees
+xgboost
+lightgbm
+
+# distributed
+dask
+distributed
+dask-ml
+
+# random tools
+papermill
+
+# visualization
+matplotlib
+seaborn
+
