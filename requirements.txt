@@ -1,22 +1,36 @@
-# basics
-mlflow
+# pydata
 numpy
 pandas
 scikit-learn
+dask
+distributed
+dask-ml
+xarray
 
 # trees
 xgboost
 lightgbm
 
-# distributed
-dask
-distributed
-dask-ml
+# jax
+jax
+jaxlib
 
-# random tools
-papermill
+# pytorch
+torch
+torchvision
+pytorch-lightning
+
+# distributed
+
+# tracking
+mlflow
 
 # visualization
 matplotlib
 seaborn
+
+# python tools
+numba
+ipykernel
+papermill
 
