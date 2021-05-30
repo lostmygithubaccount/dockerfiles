@@ -5,22 +5,21 @@ scikit-learn
 dask
 distributed
 dask-ml
+bokeh
 xarray
 
 # trees
 xgboost
 lightgbm
 
-# jax
-jax
-jaxlib
-
 # pytorch
 torch
 torchvision
 pytorch-lightning
 
-# distributed
+# jax
+jax
+jaxlib
 
 # tracking
 mlflow

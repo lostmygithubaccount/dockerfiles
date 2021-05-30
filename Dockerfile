@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     docker.io
 
 # copy context
-COPY ./ ./
+COPY . .
 
 # python installs
 RUN pip install --upgrade -r requirements.txt && rm requirements.txt
@@ -21,5 +21,5 @@ RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
 RUN az extension add -n ml -y
 
 # set command
-CMD bash
+CMD ["bash"]
 
