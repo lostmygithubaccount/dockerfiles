@@ -30,6 +30,7 @@ seaborn
 
 # python tools
 numba
+joblib
 ipykernel
 papermill
 
