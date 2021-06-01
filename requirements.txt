@@ -1,5 +1,6 @@
 # pydata
 numpy
+scipy
 pandas
 scikit-learn
 dask
@@ -7,6 +8,13 @@ distributed
 dask-ml
 bokeh
 xarray
+dask-sql
+adlfs
+fsspec
+fastparquet
+pyarrow
+python-snappy
+lz4
 
 # trees
 xgboost
@@ -29,8 +37,15 @@ matplotlib
 seaborn
 
 # python tools
+tqdm
 numba
 joblib
+jupyter
 ipykernel
 papermill
+black
+black-nb
+
+# webdev
+Flask
 

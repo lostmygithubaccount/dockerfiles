@@ -1,24 +1,32 @@
 FROM python:latest
 
-# setup working directory
+# set up working directory
 ENV HOME=/users/cody
 WORKDIR $HOME
 
 # linux installs
 RUN apt-get update && apt-get install -y \
+    build-essential \
+    less \
+    man \
     tree \
     vim-gui-common \
     docker.io
 
-# copy context
-COPY . .
-
-# python installs
-RUN pip install --upgrade -r requirements.txt && rm requirements.txt
+# install homebrew
+RUN bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ENV PATH "$PATH:/home/linuxbrew/.linuxbrew/bin"
 
 # microsoft installs
-RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
-RUN az extension add -n ml -y
+RUN brew install az && az extension add -n ml -y
+RUN brew install gh && gh config set editor vim
+
+# python installs
+COPY requirements.txt .
+RUN pip install -r requirements.txt && rm requirements.txt
+
+# copy context
+COPY . .
 
 # set command
 CMD ["bash"]
