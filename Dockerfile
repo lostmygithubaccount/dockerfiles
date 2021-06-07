@@ -1,7 +1,7 @@
 FROM python:latest
 
 # set up working directory
-ENV HOME=/users/cody
+ENV HOME=/users/gha
 WORKDIR $HOME
 
 # linux installs

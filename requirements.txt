@@ -21,13 +21,13 @@ xgboost
 lightgbm
 
 # pytorch
-torch
-torchvision
-pytorch-lightning
+#torch
+#torchvision
+#pytorch-lightning
 
 # jax
-jax
-jaxlib
+#jax
+#jaxlib
 
 # tracking
 mlflow
@@ -47,5 +47,5 @@ black
 black-nb
 
 # webdev
-Flask
+#Flask
 
