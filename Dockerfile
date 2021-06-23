@@ -31,4 +31,3 @@ COPY . .
 
 # set command
 CMD ["bash"]
-
