@@ -10,6 +10,8 @@ bokeh
 xarray
 dask-sql
 adlfs
+s3fs
+gcsfs
 fsspec
 fastparquet
 pyarrow
@@ -46,6 +48,9 @@ ipykernel
 papermill
 black
 black-nb
+
+# coiled
+coiled
 
 # webdev
 Flask
