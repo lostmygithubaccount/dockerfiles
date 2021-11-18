@@ -28,8 +28,8 @@ torchvision
 pytorch-lightning
 
 # jax
-jax
-jaxlib
+#jax
+#jaxlib
 
 # tracking
 mlflow
@@ -47,11 +47,3 @@ jupyter
 ipykernel
 papermill
 black
-black-nb
-
-# coiled
-coiled
-
-# webdev
-Flask
-

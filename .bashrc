@@ -12,5 +12,7 @@ alias ...='cd ../..'
 alias ali='v ~/.bashrc'
 alias update='source ~/.bashrc'
 
-# etc
+# exports
+export EDITOR="vi"
 
+# etc
